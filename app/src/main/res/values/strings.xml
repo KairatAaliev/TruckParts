@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Truck Parts</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home">Главная</string>
+    <string name="discount">Акции</string>
+    <string name="qr">QR код</string>
+    <string name="location">Филиалы</string>
+    <string name="brand">Бренды</string>
+    <string name="log_in">Войти</string>
+    <string name="not_service">Сервис временно недоступен</string>
+    <string name="no_internet">Ваше интернет соединение нестабильно или отсутствует, попробуйте обновить</string>
+    <string name="refresh">Обновить</string>
+    <string name="hello_man">Здравствуйте,</string>
+    <string name="osoo">ОсОО</string>
+    <string name="price_type">Тип цены</string>
+    <string name="price_type_indicate">Розничная</string>
+</resources>

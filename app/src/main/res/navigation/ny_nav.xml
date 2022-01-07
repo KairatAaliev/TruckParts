@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ny_nav"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.truckparts.main_fragment.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+    </fragment>
+    <fragment
+        android:id="@+id/stockFragment3"
+        android:name="com.example.truckparts.stock_fragment.StockFragment"
+        android:label="StockFragment"
+        tools:layout="@layout/fragment_stock">
+    </fragment>
+    <fragment
+        android:id="@+id/QRFragment"
+        android:name="com.example.truckparts.qr_fragment.QRFragment"
+        android:label="fragment_q_r"
+        tools:layout="@layout/fragment_q_r" >
+    </fragment>
+    <fragment
+        android:id="@+id/locationFragment"
+        android:name="com.example.truckparts.location_fragment.LocationFragment"
+        android:label="fragment_location"
+        tools:layout="@layout/fragment_location" >
+    </fragment>
+    <fragment
+        android:id="@+id/brandFragment"
+        android:name="com.example.truckparts.brand_fragment.BrandFragment"
+        android:label="fragment_brand"
+        tools:layout="@layout/fragment_brand" >
+    </fragment>
+</navigation>
