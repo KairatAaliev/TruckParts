@@ -1,4 +1,4 @@
-package com.example.truckparts.other_fragments
+package com.example.truckparts.other_fragments.history_of_accruals
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
