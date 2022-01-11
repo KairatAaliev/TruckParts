@@ -94,8 +94,9 @@
         android:id="@+id/rv_history_of_accruals_view"
         app:layout_constraintTop_toBottomOf="@id/btn_history_of_accruals_date"
         android:layout_marginTop="8dp"
+        app:layoutManager="LinearLayoutManager"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="0dp">
 
     </androidx.recyclerview.widget.RecyclerView>
 
