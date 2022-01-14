@@ -18,7 +18,7 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="wrap_content">
 
             <TextView
                 android:id="@+id/tv_big_bonus_status_indicator"
@@ -35,13 +35,13 @@
 
             <ImageView
                 android:id="@+id/iv_line_in_history_of_bonus"
-                app:layout_constraintTop_toTopOf="@id/ll_put_date_indication"
+                android:layout_width="1dp"
+                android:layout_height="32dp"
+                android:layout_marginEnd="12dp"
+                android:background="#E6EFF9"
                 app:layout_constraintBottom_toBottomOf="@id/ll_put_date_indication"
                 app:layout_constraintEnd_toStartOf="@id/ll_put_date_indication"
-                android:layout_marginEnd="12dp"
-                android:layout_width="1dp"
-                android:background="#E6EFF9"
-                android:layout_height="32dp"/>
+                app:layout_constraintTop_toTopOf="@id/ll_put_date_indication" />
 
             <androidx.appcompat.widget.LinearLayoutCompat
                 android:id="@+id/ll_put_date_indication"
@@ -64,46 +64,45 @@
 
                 <TextView
                     android:id="@+id/tv_date_time_indicate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:text="12:52"
                     android:textColor="#0F335D"
                     android:textSize="13sp"
-                    android:textStyle="bold"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:textStyle="bold" />
 
             </androidx.appcompat.widget.LinearLayoutCompat>
 
             <TextView
                 android:id="@+id/tv_organization_name_in_history_of_bonus"
-                app:layout_constraintTop_toBottomOf="@id/tv_big_bonus_status_indicator"
-                app:layout_constraintStart_toStartOf="parent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="16dp"
-                android:maxLines="1"
-                android:textStyle="bold"
-                android:textSize="13sp"
-                android:textColor="#0F335D"
-                android:text="Truck Parts"
                 android:gravity="start"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:maxLines="1"
+                android:text="Truck Parts"
+                android:textColor="#0F335D"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_big_bonus_status_indicator" />
 
             <TextView
                 android:id="@+id/tv_address_organization_in_history_of_bonus"
-                app:layout_constraintTop_toBottomOf="@id/tv_organization_name_in_history_of_bonus"
-                app:layout_constraintStart_toStartOf="parent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="16dp"
-                app:layout_constraintBottom_toBottomOf="parent"
                 android:layout_marginBottom="16dp"
+                android:text="Adress adress adress adress adress adress adress adress adress adress adress adress adress adress adress adress adress adress"
                 android:textColor="#667689"
                 android:textSize="13sp"
-                android:text="Adress adress adress adress adress adress adress adress adress adress adress adress adress adress adress adress adress adress"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tv_organization_name_in_history_of_bonus" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
-
 </androidx.constraintlayout.widget.ConstraintLayout>

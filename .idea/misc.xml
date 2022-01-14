@@ -14,17 +14,19 @@
         <entry key="..\:/Users/Professional/AndroidStudioProjects/TruckParts/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Users/Professional/AndroidStudioProjects/TruckParts/app/src/main/res/layout/activity_splash_screen.xml" value="0.18414387031408308" />
         <entry key="..\:/Users/Professional/AndroidStudioProjects/TruckParts/app/src/main/res/layout/fragment_brand.xml" value="0.37864583333333335" />
-        <entry key="..\:/Users/Professional/AndroidStudioProjects/TruckParts/app/src/main/res/layout/fragment_history_of_accruals.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/TruckParts/app/src/main/res/layout/fragment_history_of_accruals.xml" value="0.18" />
         <entry key="..\:/Users/Professional/AndroidStudioProjects/TruckParts/app/src/main/res/layout/fragment_location.xml" value="0.5294943820224719" />
         <entry key="..\:/Users/Professional/AndroidStudioProjects/TruckParts/app/src/main/res/layout/fragment_main.xml" value="0.18" />
         <entry key="..\:/Users/Professional/AndroidStudioProjects/TruckParts/app/src/main/res/layout/fragment_q_r.xml" value="0.22" />
         <entry key="..\:/Users/Professional/AndroidStudioProjects/TruckParts/app/src/main/res/layout/fragment_splash_screen.xml" value="0.33" />
-        <entry key="..\:/Users/Professional/AndroidStudioProjects/TruckParts/app/src/main/res/layout/fragment_stock.xml" value="0.22" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/TruckParts/app/src/main/res/layout/fragment_stock.xml" value="0.33" />
         <entry key="..\:/Users/Professional/AndroidStudioProjects/TruckParts/app/src/main/res/layout/fragment_stock2.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/TruckParts/app/src/main/res/layout/fragment_stock_news_r_v.xml" value="0.37864583333333335" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/TruckParts/app/src/main/res/layout/fragment_stock_r_v.xml" value="0.37864583333333335" />
         <entry key="..\:/Users/Professional/AndroidStudioProjects/TruckParts/app/src/main/res/layout/main_log_in_layout.xml" value="0.5" />
         <entry key="..\:/Users/Professional/AndroidStudioProjects/TruckParts/app/src/main/res/layout/no_internet_layout.xml" value="0.37864583333333335" />
         <entry key="..\:/Users/Professional/AndroidStudioProjects/TruckParts/app/src/main/res/layout/no_sevice_layout.xml" value="0.22" />
-        <entry key="..\:/Users/Professional/AndroidStudioProjects/TruckParts/app/src/main/res/layout/rv_bonus_history_item.xml" value="0.5" />
+        <entry key="..\:/Users/Professional/AndroidStudioProjects/TruckParts/app/src/main/res/layout/rv_bonus_history_item.xml" value="0.22" />
         <entry key="..\:/Users/Professional/AndroidStudioProjects/TruckParts/app/src/main/res/layout/rv_location_fragment_item.xml" value="0.5" />
         <entry key="..\:/Users/Professional/AndroidStudioProjects/TruckParts/app/src/main/res/layout/rv_location_item.xml" value="0.37864583333333335" />
         <entry key="..\:/Users/Professional/AndroidStudioProjects/TruckParts/app/src/main/res/layout/rv_stock_item.xml" value="0.33" />

@@ -21,7 +21,6 @@ class HistoryOfAccrualsFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-
         return inflater.inflate(R.layout.fragment_history_of_accruals, container, false)
     }
 
@@ -126,33 +125,7 @@ class HistoryOfAccrualsFragment : Fragment() {
                 "Бишкек, проспект чынгыза Айтматова, 109 а, Кыргызстан, переулок второй за третьим..."
             )
         )
-        list.add(
-            HistoryOfAccrualsModel(
-                "-70",
-                "sto",
-                "12.02.2020",
-                "12:35",
-                "Бишкек, проспект чынгыза Айтматова, 109 а, Кыргызстан, переулок второй за третьим..."
-            )
-        )
-        list.add(
-            HistoryOfAccrualsModel(
-                "-70",
-                "sto",
-                "12.02.2020",
-                "12:35",
-                "Бишкек, проспект чынгыза Айтматова, 109 а, Кыргызстан, переулок второй за третьим..."
-            )
-        )
-        list.add(
-            HistoryOfAccrualsModel(
-                "-70",
-                "sto",
-                "12.02.2020",
-                "12:35",
-                "Бишкек, проспект чынгыза Айтматова, 109 а, Кыргызстан, переулок второй за третьим..."
-            )
-        )
+
         return list
     }
 }

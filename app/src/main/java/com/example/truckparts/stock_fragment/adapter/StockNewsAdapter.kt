@@ -11,7 +11,7 @@ import com.bumptech.glide.Glide
 import com.example.truckparts.R
 import com.example.truckparts.then_delete.StockModel
 
-class DiscountsAdapter : RecyclerView.Adapter<DiscountsAdapter.ViewHolder>() {
+class StockNewsAdapter : RecyclerView.Adapter<StockNewsAdapter.ViewHolder>() {
 
     var discounts: List<StockModel> = arrayListOf()
 

@@ -58,4 +58,4 @@ class HistoryOfAccrualsAdapter : RecyclerView.Adapter<HistoryOfAccrualsAdapter.V
 
 }
 
-// https://www.google.com/url?sa=i&url=https%3A%2F%2Fblogflaviomusa.medium.com%2Flanguage-and-clothing-b20ecbdf0d3d&psig=AOvVaw35BeNQqDWtr3lpy2klt_-f&ust=1641879276352000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCKCw74q7pvUCFQAAAAAdAAAAABAJ
+//
